@@ -1,0 +1,139 @@
+#root { 
+  padding: 55px 97px;
+}
+
+body {
+  background: radial-gradient(76.95% 76.95% at 50% 23.05%, #9F0C0B 0%, #38070E 100%);
+  color:white;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+}
+
+.header_box{ 
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header_box_title{
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+}
+
+.header_search_icon{
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  left: 19px;
+}
+.header_delete_search{
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  right: 130px;
+  cursor: pointer;
+}
+.header_search_box{
+  position: relative;
+}
+
+.header_search_input{
+  padding: 18.5px 15px 18.5px 60px;
+  min-width: 438px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #FFF;
+}
+.header_search_input::placeholder{
+  color:#6C6C6C;
+}
+
+.header_search_button{
+  padding: 18.5px 32px;
+}
+
+button {
+  background-color: #CE0404;
+  border: 1px solid #CE0404; 
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #FFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card_box{
+  display: flex;
+  background-color: #FFF;
+  height: 82px;
+  color:#000;
+  border-radius: 4px;
+  margin: 16px 0;
+}
+
+.card_box_button {
+  background-color: #CE0404;
+  color: #FFF;
+  width: 82px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card_box_title_container{
+  flex: 7;
+}
+
+.card_box_title{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  padding: 16px;
+  padding-bottom: 5px;
+}
+
+.card_box_subtitle{
+  margin: 0;
+  padding:0 16px 16px 16px;
+  
+}
+
+.card_box_thumbnail{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+}
+.card_box_thumbnail_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.pagination_box {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination_box_arrow_right{
+  transform: rotate(180deg);
+}
+.pagination_box_element{
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pagination_box_element_selected{
+  padding: 0 10px;
+  background-color: #CE0404;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
